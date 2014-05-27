@@ -5,7 +5,7 @@ Un repositorio que pretende ser la guía para recordar, aprender o retroalimenta
 
 ## Tabla de contenido
 - [Objetivos](#objetivos).
-- [¿Cómo funciona?](#como-funciona).
+- [¿Cómo funciona?](#c%C3%B3mo-funciona).
 - [Contribuir](#contribuir).
 - [Tips de sintaxis para dar formato a los README](#tips-de-sintaxis-para-dar-formato-a-los-readme).
   - [Insertar HN](#insertar-hn).
