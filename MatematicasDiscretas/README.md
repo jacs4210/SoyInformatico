@@ -1,8 +1,5 @@
 # Matemáticas Discretas
-Las matemáticas discretas son un área de las matemáticas encargadas del estudio de los conjuntos discretos: finitos o infinitos numerables. En oposición a las matemáticas continuas, que se encargan del estudio de conceptos como la continuidad y el cambio continuo, la matemáticas discretas estudian estructuras cuyos elementos pueden contarse uno por uno separadamente. Es decir, los procesos en matemáticas discretas son contables, como por ejemplo, los números enteros, grafos y sentencias de lógica.
-
-## ¿Para que sirven?
-Sirven para resolver problemas analíticos, incluyendo teoría básica de conjuntos, combinatoria, relaciones y funciones, propiedades básicas de grafos y sus aplicaciones en la ciencia de la computación y son importantes en dicha ciencia porque sólo son computables las funciones de conjuntos numerables. La clave en matemáticas discretas es que no es posible manejar las ideas de proximidad o límite y suavidad en las curvas, como se puede en el cálculo. Por ejemplo, en matemáticas discretas una incógnita puede ser 2 ó 3, pero nunca se aproximará a 3 por la izquierda con 2.9, 2.99, 2.999, etc. Las gráficas en matemáticas discretas vienen dadas por un conjunto finito de puntos que se pueden contar por separado; es decir, sus variables son discretas o digitales, mientras que las gráficas en cálculo son trazos continuos de rectas o curvas; es decir, sus variables son continuas o analógicas.
+Las matemáticas discretas son un área de las matemáticas encargadas del estudio de los conjuntos discretos: finitos o infinitos numerables. En oposición a las matemáticas continuas, que se encargan del estudio de conceptos como la continuidad y el cambio continuo, la matemáticas discretas estudian estructuras cuyos elementos pueden contarse uno por uno separadamente. Es decir, los procesos en matemáticas discretas son contables, como por ejemplo, los números enteros, grafos y sentencias de lógica. Sirven para resolver problemas analíticos, incluyendo teoría básica de conjuntos, combinatoria, relaciones y funciones, propiedades básicas de grafos y sus aplicaciones en la ciencia de la computación y son importantes porque sólo son computables las funciones de conjuntos numerables. La clave en matemáticas discretas es que no es posible manejar las ideas de proximidad o límite y suavidad en las curvas, como se puede en el cálculo. Por ejemplo, en matemáticas discretas una incógnita puede ser 2 ó 3, pero nunca se aproximará a 3 por la izquierda con 2.9, 2.99, 2.999, etc. Las gráficas en matemáticas discretas vienen dadas por un conjunto finito de puntos que se pueden contar por separado; es decir, sus variables son discretas o digitales, mientras que las gráficas en cálculo son trazos continuos de rectas o curvas; es decir, sus variables son continuas o analógicas.
 
 **Referencias**:
 
@@ -140,5 +137,26 @@ Código fuente de la formula en Daum Equation Editor:
 Hallar\quad el\quad n-esimo\quad término\quad y\quad la\quad suma\quad de\quad n-terminos\quad de\quad la\quad siguiente\quad sucesión:\\ \\ 5\quad +\quad 15\quad +\quad 45\quad +\quad ...\quad +\quad (\quad \quad \quad \quad \quad \quad )\quad =\quad (\quad \quad \quad \quad \quad \quad )\\ \\ Solución:\\ \\ Sabemos\quad que\quad r\quad =\quad 3\quad y\quad a\quad =\quad 5\\ \\ Hallemos\quad el\quad n-esimo\quad termino:\\ \\ { T }_{ n }\quad \quad =\quad a{ r }^{ n-1 }\\ { T }_{ n }\quad \quad =\quad 5\quad *\quad { 3 }^{ n-1 }\\ \\ Por\quad lo\quad tanto\quad quedaría\quad así:\\ \\ 5\quad +\quad 15\quad +\quad 45\quad +\quad ...\quad +\quad { (3 }^{ n-1 }\quad *\quad 5)\quad =\quad (\quad \quad \quad \quad \quad \quad )\\ \\ Ahora,\quad hallemos\quad la\quad suma\quad de\quad los\quad n-terminos:\\ \\ Como\quad r\quad >\quad 1,\quad entonces:\\ \\ { S }_{ n }\quad =\quad \frac { a\quad ({ r }^{ n }\quad -\quad 1) }{ r-1 } \\ \\ { S }_{ n\quad =\quad  }\frac { 5\quad (\quad { 3 }^{ n }\quad -\quad 1) }{ 3-1 } \\ \\ { S }_{ n\quad =\quad  }\frac { 5\quad *\quad { 3 }^{ n }\quad -\quad 5 }{ 2 } \\ \\ Por\quad lo\quad tanto,\quad la\quad secuencia\quad queda\quad así:\\ \\ 5\quad +\quad 15\quad +\quad 45\quad +\quad ...\quad +\quad { (3 }^{ n-1 }\quad *\quad 5)\quad =\quad \frac { 5\quad *\quad { 3 }^{ n }\quad -\quad 5 }{ 2 } 
 
 ```
+
+## Principio de inducción matemática (PIM)
+
+El PIM  se utiliza para validar teoremas o formulas y de esa forma asegurarnos de que funcionarán para n-terminos.
+
+El PIM tiene dos pasos:
+
+** Paso básico **
+
+Es demostrar que P(1) es verdad.
+
+** Paso Inductivo **
+
+Vamos a suponer que la formula es valida para P(k) entonces es verdadera también para P(k+1).
+
+** Ejemplo: **
+
+
+
+
+
 
 
