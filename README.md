@@ -37,10 +37,6 @@ El archivo `README.md` tiene la siguiente arquitectura de la información que de
 
 - Una introducción sobre la definición de la categoría, ejemplo: Java es un lenguaje de programación, etc...
 
-- Contribución: Recordando a las personas como pueden contribuir con el proyecto.
-
-- Licencia: Recordando que todo artículo publicado es bajo licencia Atribución – No comercial – Compartir igual.
-
 - Tabla de contenido [Con anclaje a cada item].
 
 	- Tema 1: No olvidar poner referencias externas al final del item, para mostrar de donde se sacó la información o simplemente para ampliar dicha información.
@@ -50,8 +46,6 @@ El archivo `README.md` tiene la siguiente arquitectura de la información que de
 	- Tema N.
 
 	- FAQs
-
-	- Créditos: Si eres aportante, deja un enlace de reconocimiento, ejemplo: tu usuario de alguna red social, pagina web, etc...
 
 ### Contribuir
 
