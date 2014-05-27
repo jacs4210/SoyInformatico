@@ -39,17 +39,17 @@ El archivo `README.md` tiene la siguiente arquitectura de la información que de
 
 - Tabla de contenido [Con anclaje a cada item].
 
- - Tema 1: No olvidar poner referencias externas al final del item, para mostrar de donde se sacó la información o simplemente para ampliar dicha información.
- .
- .
- .
- - Tema N.
+	- Tema 1: No olvidar poner referencias externas al final del item, para mostrar de donde se sacó la información o simplemente para ampliar dicha información.
+ 	.
+ 	.
+ 	.
+ 	- Tema N.
 
- - FAQs
-  - Pregunta frecuente 1.
-  .
-  .
-  - Pregunta frecuente N.
+ 	- FAQs
+		- Pregunta frecuente 1.
+  		.
+  		.
+  		- Pregunta frecuente N.
 
 > Cada item de la tabla de contenido debe tener enlace de anclaje al tema en cuestión.
 
