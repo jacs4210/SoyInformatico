@@ -23,7 +23,7 @@ La mejor formar de asegurar nuestro conocimiento es documentando todo lo que apr
 		- [Insertar un bloque de código](#insertar-un-bloque-de-c%C3%B3digo).
 		- [Resaltar el código](#resaltar-el-c%C3%B3digo).
 		- [Insertar tablas](#insertar-tablas).
-		- [Otras referencias sobre Markdown](#Otras-referencias-sobre-Markdown).
+		- [Otras referencias sobre Markdown](#otras-referencias-sobre-markdown).
 
 ## Ventajas
 
