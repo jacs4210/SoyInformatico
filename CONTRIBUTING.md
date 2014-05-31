@@ -4,26 +4,26 @@ La mejor formar de asegurar nuestro conocimiento es documentando todo lo que apr
 
 ## Tabla de contenido
 
-	- [Ventajas](#ventajas).
-	- [FAQs](#faqs).
-		- ¿Como empiezo a contribuir?
-		- Me da mucha pereza documentar ¿Que me recomiendan?
-		- ¿El proyecto tiene sitio web?
-		- ¿Que debo tener en cuenta a la hora de contribuir con una categoría?
-		- No existe la categoría que deseo documentar ¿Que hago?
-		- ¿Como le doy formato o estilo a los archivos README.md?
-			- [Insertar HN](#insertar-hn).
-			- [Cursivas](#cursivas).
-			- [Negrilla](#negrilla).
-			- [Viñetas para tablas de contenido](#vi%C3%B1etas).
-			- [insertar imágenes](#insertar-im%C3%A1genes).
-			- [Insertar enlaces](#insertar-enlaces).
-			- [Hacer anclaje](#hacer-anclaje).
-			- [Insertar una línea de código](#insertar-una-l%C3%ADnea-de-c%C3%B3digo).
-			- [Insertar un bloque de código](#insertar-un-bloque-de-c%C3%B3digo).
-			- [Resaltar el código](#resaltar-el-c%C3%B3digo).
-			- [Insertar tablas](#insertar-tablas).
-			- [Otras referencias sobre Markdown](#Otras-referencias-sobre-Markdown).
+- [Ventajas](#ventajas).
+- [FAQs](#faqs).
+	- [¿Como empiezo a contribuir?](#como-empiezo-a-contribuir).
+	- [Me da mucha pereza documentar ¿Que me recomiendan?](#me-da-mucha-pereza-documentar-que-me-recomiendan).
+	- [¿El proyecto tiene sitio web?](#el-proyecto-tiene-sitio-web).
+	- [¿Que debo tener en cuenta a la hora de contribuir con una categoría?](#que-debo-tener-en-cuenta-a-la-hora-de-contribuir-con-una-categor%C3%ADa).
+	- [No existe la categoría que deseo documentar ¿Que hago?](#no-existe-la-categor%C3%ADa-que-deseo-documentar-que-hago).
+	- [¿Como le doy formato o estilo a los archivos README.md?](#como-le-doy-formato-o-estilo-a-los-archivos-readmemd).
+		- [Insertar HN](#insertar-hn).
+		- [Cursivas](#cursivas).
+		- [Negrilla](#negrilla).
+		- [Viñetas para tablas de contenido](#vi%C3%B1etas).
+		- [insertar imágenes](#insertar-im%C3%A1genes).
+		- [Insertar enlaces](#insertar-enlaces).
+		- [Hacer anclaje](#hacer-anclaje).
+		- [Insertar una línea de código](#insertar-una-l%C3%ADnea-de-c%C3%B3digo).
+		- [Insertar un bloque de código](#insertar-un-bloque-de-c%C3%B3digo).
+		- [Resaltar el código](#resaltar-el-c%C3%B3digo).
+		- [Insertar tablas](#insertar-tablas).
+		- [Otras referencias sobre Markdown](#Otras-referencias-sobre-Markdown).
 
 ## Ventajas
 
