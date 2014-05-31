@@ -5,7 +5,7 @@ Las matemáticas discretas son un área de las matemáticas encargadas del estud
 
 - [Progresión aritmética](#progresi%C3%B3n-aritmetica)
 - [Progresión geométrica](#progresi%C3%B3n-geom%C3%A9trica)
-- Principio de inducción matemática (PIM)
+- [Principio de inducción matemática (PIM)](#principio-de-inducci%C3%B3n-matem%C3%A1tica-pim)
 - Relaciones recursivas de una semilla
 - Relaciones recursivas de dos semillas
 - Conjuntos
@@ -154,17 +154,23 @@ El PIM  se utiliza para validar teoremas o formulas con el objetivo de asegurar 
 
 El PIM tiene dos pasos:
 
-** Paso básico **
+**Paso básico**
 
 Es demostrar que para n = 1 es verdad.
 
-** Paso Inductivo **
+**Paso Inductivo**
 
 Vamos a suponer que la formula es valida para k, entonces es verdadera también para k+1
 
 Ejemplo:
 
 ![ejemplo del pim](https://raw.githubusercontent.com/victorhtorres/SoyInformatico/master/MatematicasDiscretas/Images/ejemplo-pim.png)
+
+Código fuente del ejemplo en Daum Equator Editor:
+
+```plain
+Vamos\quad a\quad validar\quad que\quad para\quad la\quad secuencia\quad 1\quad +\quad 3\quad +\quad 5\quad +\quad ...\quad +\quad 2n-1\quad =\quad { n }^{ 2 }\\ para\quad cualquier\quad valor\quad en\quad n\quad funciona.\\ \\ Paso\quad básico:\\ \\ Demostrar\quad que\quad para\quad n\quad =\quad 1\quad es\quad verdad\\ \\ 2n-1\quad =\quad { n }^{ 2 }\\ 2(1)-1\quad =\quad { 1 }^{ 2 }\\ 1\quad =\quad 1\quad Por\quad lo\quad tanto\quad es\quad verdad.\\ \\ Paso\quad inductivo:\\ \\ Demostrar\quad que\quad si\quad k\quad es\quad verdad,\quad entonces\quad k+1\quad tambíen\quad es\quad verdad\\ \\ 1\quad +\quad 3\quad +\quad 5\quad +\quad ...\quad +\quad 2k-1\quad =\quad { k }^{ 2 }\quad es\quad verdad,\quad por\quad lo\quad tanto:\\ 1\quad +\quad 3\quad +\quad 5\quad +\quad ...\quad +\quad 2k-1\quad +\quad 2(k+1)-1\quad =\quad { k }^{ 2 }\quad +\quad ?\\ 1\quad +\quad 3\quad +\quad 5\quad +\quad ...\quad +\quad 2k-1\quad +\quad 2k+1\quad =\quad { k }^{ 2 }\quad +\quad 2k+1\quad es\quad verdad.\\ \\ Después\quad de\quad hallar\quad el\quad termino\quad siguiente\quad de\quad la\quad secuencia,\quad que\quad es\quad 2k+1,\quad \\ realizo\quad lo\quad del\quad lado\quad derecho\quad del\quad =\\ \\ 1\quad +\quad 3\quad +\quad 5\quad +\quad ...\quad +\quad 2k-1\quad +\quad 2k+1\quad =\quad { k }^{ 2 }\quad +\quad 2k+1\\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad =\quad (k\quad +\quad 1)\quad (k\quad +\quad 1)\\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad =\quad n\quad .\quad n\\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad =\quad { n }^{ 2 }\quad cuando\quad n\quad =\quad k+1\\ \\ La\quad formula\quad cumple\quad para\quad culquier\quad valor\quad en\quad n.\\ \\ \\
+```
 
 >El PIM es importante utilizarlo en las formulas de nuestro código, asegurando que siempre funcionarán para cualquier valor en n.
 
