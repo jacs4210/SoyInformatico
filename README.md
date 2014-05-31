@@ -31,4 +31,4 @@ El archivo `README.md` tiene la siguiente arquitectura de la información que de
 
 ### Contribuir
 
-Leer el archivo CONTRIBUTING.md
+Leer el archivo [CONTRIBUTING.md](https://github.com/victorhtorres/SoyInformatico/blob/master/CONTRIBUTING.md)
