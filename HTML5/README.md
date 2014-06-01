@@ -28,12 +28,15 @@ HTML (HyperText Markup Language), versión 5 es la quinta revisión importante d
 		<h1>Uno solo por documento.</h1>
 	</header>
 	<section> 
-		<!-- permite dividir el contenido del sitio en varias secciones. Ejemplo: Un blog tiene un section para el post y otro para el gestor de comentarios -->
+		<!-- permite dividir el contenido del sitio en varias secciones. Ejemplo: 
+		Un blog tiene un section para el post y otro para el gestor de comentarios -->
 		<article> 
-			<!-- Para definir contenido independiente. Ejemplo: Un blog tiene varios post y cada post es un <article>. Ejemplo: Si tenemos 1 post y 10 comentarios, entonces tenemos 2 <section>, uno para el post y otro para el gestor de comentarios y 11 <article> uno por cada comentario. -->
+			<!-- Para definir contenido independiente, ejemplo: Si tenemos 1 post y
+			10 comentarios, entonces tenemos 2 <section>, uno para el post y otro para el gestor de comentarios y 11 <article> uno por cada comentario. -->
 		</article>
 		<aside>
-			<!-- Lo que no hace parte del contenido principal de nuestro sitio web y puede ir en cualquier parte de la estructura. -->
+			<!-- Lo que no hace parte del contenido principal de nuestro sitio web y
+			puede ir en cualquier parte de la estructura. -->
 		</aside>
 	</section>
 	<footer>
