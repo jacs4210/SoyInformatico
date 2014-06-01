@@ -10,7 +10,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Float](#propiedad-float)
  - [Display](#propiedad-display)
  - [Position](#propiedad-position)
- - Box shadown
+ - [Box shadown](#propiedad-boxshadown)
  - Min y Max
  - @Font face
 - Pseudo elementos
@@ -203,4 +203,54 @@ http://es.learnlayout.com/position.html
 
 http://www.w3schools.com/cssref/playit.asp?filename=playcss_position
 
+
+## Propiedad box-shadown
+
+Sirve para darle sombra a los elementos en CSS3.
+
+**Sintaxis**
+
+```css
+#objeto
+{
+box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;
+}
+```
+
+Existe varias formas de representar sombras en los elementos por CSS3, por ejemplo:
+
+**Ejemplo 1**:
+
+```css
+#objeto
+{
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px
+}
+```
+
+>Los primeros tres ceros del ejemplo hacen referencia al color en hexadecimal. El 0.5 hace referencia al % de transparencia (esto se debe a que el color RGBA añade un canal de transparencia). Los valores 5px 5px hacen referencia a los ejex (X,Y) y el valor 20px hace referencia al % de difuminación.
+
+
+**Ejemplo 2**:
+
+```css
+#objeto
+{
+box-shadow: 10px 10px 5px #888888;
+}
+```
+
+>Los dos valores de 10px del ejemplo 2 hace referencia a la posición de la sombra (se puede dar valores negativos para representar el otro lado del elemento a sombrear), el valor 5px hace referencia la longitud de radio de desenfoque de la sombra y el valor hexadecimal #888888 hace referencia al color de la sombra.
+
+
+**Ejemplo 3**: Varias sombras.
+
+```css
+#bojeto
+{
+	box-shadow: 0 0 20px black, 0 10px 20px yellow;
+}
+```
+
+>Puedo colocar varias sombras en un elemento con solo separar los valores por comas.
 
