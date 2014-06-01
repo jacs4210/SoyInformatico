@@ -53,17 +53,11 @@ La documentación está por carpetas, lo que hace referencia a la categoría de 
 
 - Título de la categoría y definición.
 - Tabla de contenido.
-  - Tema 1.
-  .
-  .
-  .
-  - Tema N.
+  - Tema 1 [poner referencias si la información ha salido de un tercero]
+  - Tema N
   - FAQs
-    - Pregunta frecuente 1.
-      .
-      .
-      - Pregunta frecuente N.
-   - Referencias: los enlaces externos que lleven a la fuente de la información [si aplica].
+    - Pregunta frecuente 1
+    - Pregunta frecuente N
 
 >Cada item de la tabla de contenido debe tener enlace de anclaje al tema en cuestión.
 
