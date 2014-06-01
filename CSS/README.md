@@ -7,7 +7,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
 - Propiedades en CSS
  - [Over flow](#propiedad-overflow)
  - [Border radius](#propiedad-border-radius)
- - Float
+ - [Float](#propiedad-float)
  - Display
  - Position
  - Box shadown
@@ -35,7 +35,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
 
 ## Propiedad Overflow
 
-Permite que se recorte el contenido de una capa, para mostrar únicamente el contenido que quepa, según sus dimensiones. Para acceder al contenido que no se muestra, porque no cabe en la capa, se puede configurar overflow para que aparezcan unas barras de desplazamiento.
+Permite que se recorte el contenido de una capa, para mostrar únicamente el contenido que quepa, según sus dimensiones.
 
 **Sintaxis**:
 
@@ -51,13 +51,21 @@ Permite que se recorte el contenido de una capa, para mostrar únicamente el con
 **Valores**:
 
 visible: Muestra todo el contenido de la capa así no quepa en ella.
+
 hidden: Para ocultar el contenido que sobrepasa el alto y ancho que tiene asignado la capa.
+
 auto: Muestra un scroll en la capa para poder mostrar contenido que sea mayor al tamaño de dicha capa.
+
 scroll: Muestra un scroll en la capa así el contenido no sea mayor al tamaño de dicha capa.
 
 **Gráficamente se vería así**:
 
 ![valores overflow](https://raw.githubusercontent.com/victorhtorres/SoyInformatico/master/CSS/Images/overflow-values.jpg)
+
+Fuente:
+
+http://www.desarrolloweb.com/articulos/atributo-overflow-css.html
+
 
 ## Propiedad border radius
 
@@ -116,3 +124,17 @@ Ahora con dos valores:
 ![Ejemplo de border radius con dos valores](https://raw.githubusercontent.com/victorhtorres/SoyInformatico/master/CSS/Images/border-radius-two-values.jpg)
 
 
+## Propiedad float
+
+Las propiedades display, float y position se usan de igual importancia en CSS3 y sirve para ajustar las cajas de información del sitio web. Con la propiedad float podemos colocar un objeto a la derecha o a la izquierda.
+
+**Sintaxis*
+
+```css
+#objeto 
+{
+	float:left|right|intial|inherit;
+}
+```
+
+>Elementos posicionados absolutamente ignora la propiedad float.
