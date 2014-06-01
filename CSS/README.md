@@ -8,8 +8,8 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Over flow](#propiedad-overflow)
  - [Border radius](#propiedad-border-radius)
  - [Float](#propiedad-float)
- - Display
- - Position
+ - [Display](#propiedad-display)
+ - [Position](#propiedad-position)
  - Box shadown
  - Min y Max
  - @Font face
@@ -138,3 +138,69 @@ Las propiedades display, float y position se usan de igual importancia en CSS3 y
 ```
 
 >Elementos posicionados absolutamente ignora la propiedad float.
+
+## Propiedad display
+
+Display es la propiedad más importante para estructurar los objetos de nuestro sitio web. Cada elemento tiene un valor de display por defecto dependiendo de qué tipo de elemento sea. El valor por defecto para la mayoría de los elementos es usualmente block (de bloque) o inline (en línea). Un elemento que es block es comúnmente llamado elemento block-level. Un elemento inline siempre es llamado elemento inline.
+
+**Sintaxis**
+
+```css
+#objeto
+{
+	display: block|inline|inline-block|none…;
+}
+```
+
+**Tipos de display**
+
+**Block**: `div` Es el elemento block-level estándar. Un elemento block-level comienza en una nueva línea y se estira hasta la derecha e izquierda tan lejos como pueda. Otros elementos block-level muy comunes son `p` y `form`, y algunos nuevos en HTML5 son `header`, `footer` y `section`.
+
+**Inline**: El `span` es el elemento inline estándar. Un elemento inline puede contener algo de texto dentro de un párrafo `<span> como esto </span>` sin interrumpir el flujo del párrafo. El elemento `<a>` es el elemento inline más común, ya que se usa para links.
+
+**Inline-block**: Permite tener varios bloques de elementos en una sola línea. Útil para la maquetación de la información.
+
+**None**: Otro valor común de display es none. Algunos elementos especializados como script usan este por defecto. Es comúnmente usado en JavaScript para ocultar o mostrar elementos sin eliminarlos ni recrearlos. Esto es diferente de visibility. Usar `display: none` no dejará espacio donde el elemento se encontraba, pero `visibility: hidden;` dejará un espacio vacío.
+
+**Fuente**: 
+
+http://es.learnlayout.com/display.html
+
+**Descripción gráfica del display**:
+
+![Decripción gráfica de la propiedad display](https://raw.githubusercontent.com/victorhtorres/SoyInformatico/master/CSS/Images/representacion-grafica-display.jpg)
+>Imagen sacada del curso de Diseño Web de Mejorando.la
+
+## Propiedad position
+
+La propiedad position ofrece reglas alternativas para el posicionamiento de elementos.
+
+**Sintaxis**
+
+```css
+#objeto
+{
+	position: static|absolute|fixed|relative|initial|inherit;
+}
+```
+
+**Static**: Es el valor por defecto. Un elemento con `position: static;` no está posicionado en ninguna forma en específico y se ubicará según el flujo normal que tenga el HTML o en otras palabras, no tendra en cuenta los valores top, right, bottom y left que si aparecen con el atributo `position: relative;`.
+
+
+**Relative**: Se comporta de la misma manera que static a menos que le agregues otras propiedades. La propiedad relative me genera 4 nuevos atributos: top, left, bottom, right.. Al darle valores a los nuevos atributos esto causará que la posición actual del objeto se reajuste.
+
+**Fixed**: Un elemento fixed (fijo) se posiciona a la ventana del navegador de manera relativa, lo que significa que se mantendrá en el mismo lugar incluso después de hacer scroll en la página. Al igual que con relative, las propiedades top, right, bottom, y left también son usadas.
+
+**Absolute**: Se comporta como fixed pero es relativo a su ancestro posicionado más cercano en lugar de ser relativo a la ventana del navegador, significa que, toma la posición (0,0) de la posición relativa más cercana. Si un elemento con `position: absolute;` no tiene ancestros posicionados, usará el elemento body del documento, y se seguirá moviendo al hacer scroll en la página. 
+
+>Recuerda, un elemento "posicionado" es aquel cuyo valor es cualquiera excepto static.
+
+**Fuente**:
+
+http://es.learnlayout.com/position.html
+
+**Ejemplos de position**:
+
+http://www.w3schools.com/cssref/playit.asp?filename=playcss_position
+
+
