@@ -12,7 +12,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Position](#propiedad-position)
  - [Box shadown](#propiedad-boxshadown)
  - [Min y Max](#propiedades-min-o-max)
- - @Font face
+ - [@Font face](#propiedad-font-face)
 - Pseudo elementos
  - First child
  - Last child
@@ -273,5 +273,140 @@ src: url(sansation_light.woff);
 }
 ```
 
+## Pseudo elementos en CSS
+
+Se utilizan para añadir efectos especiales a algunos selectores y/o etiquetas.
+
+**Sintaxis**
+
+```css
+selector:pseudo-element 
+{
+	property:value;
+}
+```
+
+También se puede poner selectores de clases e id's:
+
+```css
+selector.class:pseudo-element 
+{
+	property:value;
+}
+```
+
+**Estos son algunos de los pseudo-elementos más utilizados**:
 
 
+### first-child
+
+La función first-child va a busca la primera etiqueta `<p>` que este dentro del objeto de nuestro interés y le agrega el estilo que definamos.
+
+**Ejemplo**:
+
+```css
+footer p: first-child
+{
+	atributo: valor;
+}
+```
+
+### last-child
+
+Hará lo contrario a first-child, buscará el último `<p>` definido en el objeto para agregar algún estilo.
+
+**Ejemplo**:
+
+```css
+footer p: last-child
+{
+	atributo: valor;
+}
+```
+
+### nth-child
+
+Atributo que sirve para darle estilo a una etiqueta `<p>` especifica de varias `<p>` que se encuentren en un contendedor. En otras palabras, si la caja de elementos tiene más de dos `<p>` se usa este atributo.
+
+>Si no quieres complicarte con este atributo, simplemente usa un class para identificar la etiqueta la cual se desea darle estilo.
+
+**Ejemplo**:
+
+```css
+p:nth-child(3)
+{
+	background:#ff0000;
+}
+```
+
+### nth-child(odd)
+
+Toma todos los elementos `<p>` pares de una caja.
+
+**Ejemplo**:
+
+```css
+p:nth-child(odd)
+{
+	background:#ff0000;
+}
+```
+
+### nth-child(even)
+
+Toma todos los elementos `<p>` impares de una caja.
+
+**Ejemplo**:
+
+```css
+p:nth-child(even)
+{
+	background:#ff0000;
+}
+```
+
+### after
+
+Inserta contenido después de un bloque `<p>`.
+
+**Ejemplo 1**:
+
+```css
+p:after
+{ 
+	content:"- Remember this";
+}
+```
+
+**Ejemplo 2**:
+
+```css
+footer p:last-child:after
+{
+	content: " -";
+}
+```
+
+>En el ejemplo 2 vemos cómo se puede combinar dos pseudo-elementos. Tomará la última etiqueta `<p>` y le agregará después el " -".
+
+### before
+
+Inserta contenido antes de una etiqueta `<p>`
+
+**Ejemplo 1**:
+
+```css
+p:before
+{
+	content:"Read this -";
+}
+```
+
+**Ejemplo 2**:
+
+```css
+p:first-child:before
+{
+	content:"Read this -";
+}
+```
