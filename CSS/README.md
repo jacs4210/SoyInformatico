@@ -428,8 +428,8 @@ Este es un valor que especifica que a la propiedad que se la apliquemos  debe de
 **Ejemplo**: Si tenemos el siguiente código HTML
 
 ```css
-<div id=”padre”>
-      <p>Hola soy el párrafo hijo del div con id padre</p>
+<div id="padre">
+      <p>Hola soy el parrafo hijo del div con id padre</p>
 </div>
 ```
 y aplicamos el siguiente CSS:
