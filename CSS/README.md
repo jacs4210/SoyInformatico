@@ -11,7 +11,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Display](#propiedad-display)
  - [Position](#propiedad-position)
  - [Box shadown](#propiedad-boxshadown)
- - Min y Max
+ - [Min y Max](#propiedad-min-o-max)
  - @Font face
 - Pseudo elementos
  - First child
@@ -23,14 +23,6 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - Inherit
  - Initial
  - Unset
-- Herramientas adicionales
- - Normalize
- - Prefixfree
- - Modernizr
- - Mockups
- - Caniuse
- - Google fonts
-- Recomendaciones
 - FAQs
 
 ## Propiedad Overflow
@@ -253,4 +245,19 @@ box-shadow: 10px 10px 5px #888888;
 ```
 
 >Puedo colocar varias sombras en un elemento con solo separar los valores por comas.
+
+## Propiedades min o max
+
+Es una propiedad adicional que se les puede dar a las otras propiedades como `width` y `height` y sirven para tener un límite de minimo o máximo de valor, dependiendo de la propiedad que uses.
+
+**Sintaxis**
+
+```css
+#objeto
+{
+	min|max-height|width: valor;
+}
+```
+
+
 
