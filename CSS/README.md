@@ -13,12 +13,12 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Box shadown](#propiedad-boxshadown)
  - [Min y Max](#propiedades-min-o-max)
  - [@Font face](#propiedad-font-face)
-- Pseudo elementos
- - First child
- - Last child
- - NTH child
- - After
- - Before
+- [Pseudo elementos](#pseudo-elementos-en-css)
+ - [first-child](#first-child))
+ - [last-child](#last-child)
+ - [nth-child](#nth-child)
+ - [after](#after)
+ - [before](#before)
 - Valores de herencia
  - Inherit
  - Initial
