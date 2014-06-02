@@ -23,6 +23,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Inherit](#inherit)
  - [Initial](#initial)
  - [Unset](#unset)
+- [Recomendaciones](#recomendaciones)
 - FAQs
 
 ## Propiedad Overflow
@@ -476,3 +477,15 @@ Fuente:
 
 http://www.tutosytips.com/valores-de-herencia-en-css3-con-inherit-initial-unset/#sthash.yVJmDxDG.dpuf
 
+## Recomendaciones
+
+- Una buena práctica en CSS es poner los estilos en orden alfabetico y tener en cuenta que una etiqueta es más importante que un div y este último es más importante que una clase. También, se debe tener en cuenta el orden de los atributos por orden alfabetico.
+- No dejar espacios entre estilos.
+- Al darle estilo a una etiqueta coloquemos la ruta de las etiquetas padres, ejemplo:
+
+```css
+header figure
+{
+	atributo: valor;
+}
+```
