@@ -11,7 +11,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Display](#propiedad-display)
  - [Position](#propiedad-position)
  - [Box shadown](#propiedad-boxshadown)
- - [Min y Max](#propiedad-min-o-max)
+ - [Min y Max](#propiedades-min-o-max)
  - @Font face
 - Pseudo elementos
  - First child
@@ -256,6 +256,20 @@ Es una propiedad adicional que se les puede dar a las otras propiedades como `wi
 #objeto
 {
 	min|max-height|width: valor;
+}
+```
+
+## Propiedad @font-face
+
+Sirve para especificar un tipo de fuente y la url donde se encuentra alojado el archivo. Ideal para utilizarlo con fuentes externas como las que ofrece el servicio [Google Fonts](https://www.google.com/fonts).
+
+**Sintaxis**
+
+```css
+@font-face
+{
+font-family: 'NombreDeLaFuente';
+src: url(sansation_light.woff);
 }
 ```
 
