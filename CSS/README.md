@@ -14,7 +14,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Min y Max](#propiedades-min-o-max)
  - [@Font face](#propiedad-font-face)
 - [Pseudo elementos](#pseudo-elementos-en-css)
- - [first-child](#first-child))
+ - [first-child](#first-child)
  - [last-child](#last-child)
  - [nth-child](#nth-child)
  - [after](#after)
