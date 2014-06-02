@@ -19,10 +19,10 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [nth-child](#nth-child)
  - [after](#after)
  - [before](#before)
-- Valores de herencia
- - Inherit
- - Initial
- - Unset
+- [Valores de herencia](#valores-de-herencia)
+ - [Inherit](#inherit)
+ - [Initial](#initial)
+ - [Unset](#unset)
 - FAQs
 
 ## Propiedad Overflow
@@ -410,3 +410,69 @@ p:first-child:before
 	content:"Read this -";
 }
 ```
+
+## Valores de herencia
+
+Una de las características principales de CSS es la herencia de los estilos definidos para los elementos. Cuando se establece el valor de una propiedad CSS en un elemento, sus elementos descendientes heredan de forma automática el valor de esa propiedad.
+
+Fuente:
+
+http://librosweb.es/css/capitulo_2/herencia.html
+
+A continuación, veremos algunos valores que permiten hacer herencia con base al valor que tenga sus elementos padres o valores predefinidos por los navegadores:
+
+### inherit
+
+Este es un valor que especifica que a la propiedad que se la apliquemos  debe de heredar los valores de su elemento padre. Podemos decir que la palabra Inherit significa  **Usa el valor de mi padre**, si el elemento padre no tiene definido dicho valor, el navegador seguirá el DOM hasta que encuentre un elemento superior que lo contenga, y en última instancia de no tenerlo ningún elemento superior, se aplicara el valor por defecto.
+
+**Ejemplo**: Si tenemos el siguiente código HTML
+
+```css
+<div id=”padre”>
+      <p>Hola soy el párrafo hijo del div con id padre</p>
+</div>
+```
+y aplicamos el siguiente CSS:
+
+```css
+#padre {
+     margin: 10px;
+     border: 1px solid #000;
+     color: blue;
+}
+#padre p{
+     padding: inherit;
+     border: inherit;
+     color: inherit;
+}
+```
+
+El elemento párrafo obtendrá el estilo del border y del color de su padre inmediato, que el `#padre` y el padding como no está definido en el padre inmediato, lo tomara de un elemento superior de acuerdo al árbol DOM.
+
+### initial
+
+Este valor pertenece a la especificación CSS3 y cuando aplicamos a una propiedad el valor initial estamos dando el valor inicial y predefinido por el navegador en cuestión. 
+
+**Ejemplo**:
+
+```css
+body{
+    font-size: 0.5em;
+}
+p{
+    font-size: initial;
+}
+```
+
+En este caso aunque tengamos un valor de tipografía definido para el cuerpo del documento, los párrafos tendrán un tamaño de fuente predefinida y por defecto, que general y normalmente es 1em, que por defecto es 16px.
+
+>Los navegadores no tienen el mismo valor por defecto para ciertas propiedades.
+
+### unset
+
+Este valor unset es una combinación entre inherit e initial, cuando utilizamos este valor en una propiedad tratara de heredar el valor de su elemento padre si este está disponible, de no ser así este valor colocará el valor de la propiedad en su valor inicial, como si usáramos inherit e initial juntamente.
+
+Fuente:
+
+http://www.tutosytips.com/valores-de-herencia-en-css3-con-inherit-initial-unset/#sthash.yVJmDxDG.dpuf
+
