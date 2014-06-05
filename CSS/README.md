@@ -24,6 +24,11 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Initial](#initial)
  - [Unset](#unset)
 - [Recomendaciones](#recomendaciones)
+- [Herramientas adicionales](#herrmientas-adicionales)
+	- [Normalize](#normalize)
+	- [Prefixfree](#prefixfree)
+	- [Mockups](#mockups)
+	- [Caniuse](#caniuse)
 - [FAQs](#faqs)
 	- [Que es mobile first](#que-es-mobile-first)
 	- [Que es un diseño elástico](#que-es-un-dise%C3%B1o-el%C3%A1stico)
@@ -35,11 +40,6 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
 	- [Que significa el valor EM en CSS](#que-significa-el-valor-em-en-css)
 	- [Que significa minificar un archivo en CSS](#que-significar-minificar-un-archivo-en-css)
 	- [Que son los prefijos](#que-son-los-prefijos)
-- [Herramientas adicionales](#herrmientas-adicionales)
-	- [Normalize](#normalize)
-	- [Prefixfree](#prefixfree)
-	- [Mockups](#mockups)
-	- [Caniuse](#caniuse)
 	
 ## Propiedad Overflow
 
