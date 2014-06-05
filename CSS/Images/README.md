@@ -1,0 +1,1 @@
+Carpeta exclusiva para hospedar las imágenes insertadas en el README.md de la carpeta `CSS`
