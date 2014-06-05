@@ -24,8 +24,11 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Initial](#initial)
  - [Unset](#unset)
 - [Recomendaciones](#recomendaciones)
-- FAQs
-
+- [FAQs](#faqs)
+	- [Que es mobile first](#que-es-mobile-first)
+	- []
+- [Herramientas adicionales](#herrmientas-adicionales)
+	
 ## Propiedad Overflow
 
 Permite que se recorte el contenido de una capa, para mostrar únicamente el contenido que quepa, según sus dimensiones.
@@ -489,3 +492,105 @@ header figure
 	atributo: valor;
 }
 ```
+
+## FAQs
+
+### ¿Que es mobile first?
+
+Es la nueva tendencia de empezar un proyecto en la web adaptada primero a dispositivos móviles e ir expandiéndose a resoluciones de pantalla mayores a 320px. Un ejemplo claro de esto es INSTRAGRAM, que empezó como app y terminó en escritorio. Se recomienda también poner un límite máximo del ancho en el diseño.
+
+### ¿Que es un diseño elástico?
+
+Es cuando el ancho de un proyecto web se adapta al tamaño de pantalla.
+
+### ¿Que es responsive design?
+
+Transforma el diseño para no mostrar ciertas partes o modificarlas con el fin de que respondan a la necesidad del diseño en otras resoluciones de pantalla.
+
+### ¿Que es retina display?
+
+Esto significa el doble pixeles por pulgada en las resoluciones de pantalla de los dispositivos móviles como iphone 4S+, Ipads tercera generación+, Android 4.0+ y entre otros... Esto es belleza pura para nuestros ojos pero sería una pena si tu diseño no está adaptado para retina display. La solución: exportar las imágenes de tu proyecto al doble de la resolución deseada. Ejemplo: un logo de 100px x 100px ahora debe ser a 200px x 200px. Las fuentes de nuestro sitio web no tendrán problemas en retina porque son vectoriales y se escalan matemáticamente. Para más información sobre retina display, puedes consultarlo el siguiente artículo en cristalab: http://www.cristalab.com/blog/que-significa-retina-display-en-el-diseno-web-c108299l/
+
+### ¿Que tipo de estilos existen en CSS?
+
+Existen tres tipos de estilos: Las etiquetas propias de HTML (header, setion, footer, etc..), ID´s (#nombred_del_div) y Clases (.estoesclase).
+
+### ¿Como hacer que las fuentes se vean bien en cualquier dispositivo?
+
+Las fuentes son vectoriales y no se pixelan como si es el caso de las imágenes (que no son vectoriales) a los cambios de resolución de pantalla, pero es recomendable usar como tamaño mínimo de 16px en los proyectos.
+
+### Que son los colores hexadecimales?
+
+La descripción RGB (del inglés Red, Green, Blue; "rojo, verde, azul") de un color hace referencia a su composición de la intensidad de los colores primarios con que se forma: el rojo, el verde y el azul. Por medio de la mezcla de intensidad de los tres colores, podremos representar muchos más. 
+
+Para indicar con qué proporción se mezcla cada color, le asignamos un valor a cada uno de los colores primarios, así, por ejemplo, el valor 0 significa que no interviene en la mezcla, y en la medida que ese valor aumenta, aportará más intensidad a la mezcla. La gama de colores de la web consiste en 216 combinaciones de rojo, verde y azul, donde cada color puede tomar un valor entre seis diferentes (en hexadecimal): #00, #33, #66, #99, #CC o #FF, que tienen un porcentaje de intensidad de 0%, 20%, 40%, 60%, 80% y 100%, respectivamente.
+Este sistema utiliza la combinación de tres códigos de dos dígitos para expresar las diferentes intensidades de los colores primarios RGB, por ejemplo:
+
+Blanco y Negro
+
+negro: #000000 donde los canales estan al minimo: 00, 00, 00.
+blanco: #FFFFFF donde los canales estan al maximo FF, FF, FF.
+
+### ¿Que significa el valor EM en CSS?
+
+En algunos casos en vez de utilizar tamaños en px en fuentes, imágenes y padding, se puede usar em, que significa el tamaño de una "M" (la letra más cuadrada del abecedario) y CSS lo que hace es buscar el valor px más cercano y lo asume a 1em, ejemplo: Si le asignamos a una caja el tamaño de letra a 2em, entonces CSS buscará el valor más cercano en px en forma de cascada y encuentra uno por valor de 16px, entonces multiplicara 2x16 y el tamaño real de los 2em será 32px.
+
+### ¿Que significar minificar un archivo en CSS?
+
+Minificar el CSS en esencia consiste en eliminar todos los espacios en blanco que tenga dicho documento así como unificar clases o id’s los cuales tengan los mismos parámetros definidos. Gracias a esto podemos mejorar el tiempo de carga de nuestra web y por tanto el consumo de CPU de la misma. Fuente:  http://tecnodiseno.com/que-es-minificar-el-css-y-5-herramientas-online-para-realizarlo/
+
+### ¿Que son los prefijos?
+
+Los prefijos son modificadores que le anteponemos a las nuevas propiedades de css3 que no son muy bien interpretadas por los navegadores para que cada navegador por medio de este modificador haga que el navegador interprete este fragmento de código de CSS3. Estos son los prefijos de los principales Navegadores:
+
+```plain
+-moz-: (para navegadores basados en Gecko como Mozilla)
+-webkit-: (para navegadores basados en Webkit, como Chrome o Safari).
+-o-: (para Opera)
+-ms-: (para internet explorer)
+```
+Solo se debe colocar cada prefijo antes de la propiedad css3 para que el respectivo navegador reconozca la propiedad y las características, ejemplo:
+
+```css
+#my-id 
+{
+     border-radius: 1em //propiedad estandar en CSS3.
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -o-border-radius: 1em;
+    -ms-border-radius: 1em;
+    
+}
+
+```
+
+## Herramientas adicionales
+
+### Normalize
+
+Ayuda que los estilos básicos de un sitio web arranquen bien en todos los navegadores. Descargar el archivo CSS en http://necolas.github.io/normalize.css/ y guardarlo en tu proyecto, luego llamas el archivo css desde el index y listo.
+
+### Prefixfree
+
+Es una librería de JS en el cual se encarga de poner los prefijos de CSS por nosotros. Descargar la librería JS: http://leaverou.github.com/prefixfree/ luego guardar el archivo en nuestro servidor y llamarlo dentro de la etiqueta <head> y al final de todos los estilos llamados de nuestro archivo index.
+
+### Mockups
+
+Son bosquejos del diseño que deben ser muy simples (feos) para no limitar la creatividad del diseñador. Los mockups pueden pasar por varias etapas, desde un simple dibujo a mano en un cuaderno, hasta un elegante diseño en illustrator. 
+
+Algunas herramientas para hacer mockups online:
+
+http://webdemo.balsamiq.com/
+
+http://ninjamock.com/
+
+https://moqups.com/
+
+
+### Caniuse
+
+Sirve para averiguar qué propiedad en CSS funcionan en cualquier navegador. http://www.caniuse.com
+
+
+
+
