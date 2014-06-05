@@ -36,6 +36,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
 	- [Que significa minificar un archivo en CSS](#que-significar-minificar-un-archivo-en-css)
 	- [Que son los prefijos](#que-son-los-prefijos)
 - [Herramientas adicionales](#herrmientas-adicionales)
+	- [Normalize](#normalize)
 	- [Prefixfree](#prefixfree)
 	- [Mockups](#mockups)
 	- [Caniuse](#caniuse)
