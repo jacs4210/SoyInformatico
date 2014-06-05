@@ -1,6 +1,10 @@
 # Matemáticas Discretas
 Las matemáticas discretas son un área de las matemáticas encargadas del estudio de los conjuntos discretos: finitos o infinitos numerables. En oposición a las matemáticas continuas, que se encargan del estudio de conceptos como la continuidad y el cambio continuo, la matemáticas discretas estudian estructuras cuyos elementos pueden contarse uno por uno separadamente. Sirven para resolver problemas analíticos, incluyendo teoría básica de conjuntos, combinatoria, relaciones y funciones, propiedades básicas de grafos y sus aplicaciones en la ciencia de la computación.
 
+Fuente: 
+
+http://es.wikipedia.org/wiki/Matem%C3%A1ticas_discretas
+
 ## Tabla de contenido
 
 - [Progresión aritmética](#progresi%C3%B3n-aritmetica)
@@ -58,7 +62,6 @@ Las matemáticas discretas son un área de las matemáticas encargadas del estud
   - Representación de un grafo en una lista de adyacencia
   - Arboles
 - FAQs
-- [Referencias](#referencias)
 
 ## Progresión aritmetica
 
@@ -173,11 +176,6 @@ Vamos\quad a\quad validar\quad que\quad para\quad la\quad secuencia\quad 1\quad 
 ```
 
 >El PIM es importante utilizarlo en las formulas de nuestro código, asegurando que siempre funcionarán para cualquier valor en n.
-
-## Referencias
-
-http://es.wikipedia.org/wiki/Matem%C3%A1ticas_discretas
-
 
 
 
