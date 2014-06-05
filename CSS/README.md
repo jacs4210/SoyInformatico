@@ -26,8 +26,19 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
 - [Recomendaciones](#recomendaciones)
 - [FAQs](#faqs)
 	- [Que es mobile first](#que-es-mobile-first)
-	- []
+	- [Que es un diseño elástico](#que-es-un-dise%C3%B1o-el%C3%A1stico)
+	- [Que es responsive design](#que-es-responsive-design)
+	- [Que es retina display](#que-es-retina-display)
+	- [Que tipos de estilos existen en CSS](#que-tipo-de-estilos-existen-en-css)
+	- [Como hacer que las fuentes se vean bien en todos los dispositivos](#como-hacer-que-las-fuentes-se-vean-bien-en-cualquier-dispositivo)
+	- [Que son los colores hexadecimales](#que-son-los-colores-hexadecimales)
+	- [Que significa el valor EM en CSS](#que-significa-el-valor-em-en-css)
+	- [Que significa minificar un archivo en CSS](#que-significar-minificar-un-archivo-en-css)
+	- [Que son los prefijos](#que-son-los-prefijos)
 - [Herramientas adicionales](#herrmientas-adicionales)
+	- [Prefixfree](#prefixfree)
+	- [Mockups](#mockups)
+	- [Caniuse](#caniuse)
 	
 ## Propiedad Overflow
 
