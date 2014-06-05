@@ -22,6 +22,8 @@ HTML (HyperText Markup Language), versión 5 es la quinta revisión importante d
 	<title>
 	70 caracteres max.
 	</title>
+	<link rel="stylesheet" href="tuarchivo.css" />
+    	<script src="tuarchivo.js"></script>
 </head>
 <body>
 	<header>
