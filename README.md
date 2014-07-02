@@ -1,7 +1,7 @@
 # Proyecto Soy Informático
 ***Documentemos la Ingeniería Informática***
 
-Este repositorio se ha creado con el objetivo de documentar todo lo que aprendemos sobre la Ingeniería Informática y de esta forma, asegurar el conocimiento que vamos adquiriendo para poder recordar, retroalimentar y/o aprender de las contribuciones de otros estudiantes, profesionales y entusiastas de la Informática.
+Este repositorio se ha creado para documentar de una forma minimalista la Ingeniería Informática, con el objetivo de tener información clave que nos ayude a recordar y/o retroalimentar del conocimiento compartido por otros usuarios.
 
 ## ¿Cómo funciona?
 
