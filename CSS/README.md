@@ -23,12 +23,6 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Inherit](#inherit)
  - [Initial](#initial)
  - [Unset](#unset)
-- [Recomendaciones](#recomendaciones)
-- [Herramientas adicionales](#herrmientas-adicionales)
-	- [Normalize](#normalize)
-	- [Prefixfree](#prefixfree)
-	- [Mockups](#mockups)
-	- [Caniuse](#caniuse)
 - [FAQs](#faqs)
 	- [Que es mobile first](#que-es-mobile-first)
 	- [Que es un diseño elástico](#que-es-un-dise%C3%B1o-el%C3%A1stico)
@@ -492,19 +486,6 @@ Fuente:
 
 http://www.tutosytips.com/valores-de-herencia-en-css3-con-inherit-initial-unset/#sthash.yVJmDxDG.dpuf
 
-## Recomendaciones
-
-- Una buena práctica en CSS es poner los estilos en orden alfabetico y tener en cuenta que una etiqueta es más importante que un div y este último es más importante que una clase. También, se debe tener en cuenta el orden de los atributos por orden alfabetico.
-- No dejar espacios entre estilos.
-- Al darle estilo a una etiqueta coloquemos la ruta de las etiquetas padres, ejemplo:
-
-```css
-header figure
-{
-	atributo: valor;
-}
-```
-
 ## FAQs
 
 ### ¿Que es mobile first?
@@ -575,34 +556,3 @@ Solo se debe colocar cada prefijo antes de la propiedad css3 para que el respect
 }
 
 ```
-
-## Herramientas adicionales
-
-### Normalize
-
-Ayuda que los estilos básicos de un sitio web arranquen bien en todos los navegadores. Descargar el archivo CSS en http://necolas.github.io/normalize.css/ y guardarlo en tu proyecto, luego llamas el archivo css desde el index y listo.
-
-### Prefixfree
-
-Es una librería de JS en el cual se encarga de poner los prefijos de CSS por nosotros. Descargar la librería JS: http://leaverou.github.com/prefixfree/ luego guardar el archivo en nuestro servidor y llamarlo dentro de la etiqueta <head> y al final de todos los estilos llamados de nuestro archivo index.
-
-### Mockups
-
-Son bosquejos del diseño que deben ser muy simples (feos) para no limitar la creatividad del diseñador. Los mockups pueden pasar por varias etapas, desde un simple dibujo a mano en un cuaderno, hasta un elegante diseño en illustrator. 
-
-Algunas herramientas para hacer mockups online:
-
-http://webdemo.balsamiq.com/
-
-http://ninjamock.com/
-
-https://moqups.com/
-
-
-### Caniuse
-
-Sirve para averiguar qué propiedad en CSS funcionan en cualquier navegador. http://www.caniuse.com
-
-
-
-
