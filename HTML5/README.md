@@ -8,9 +8,6 @@ HTML (HyperText Markup Language), versión 5 es la quinta revisión importante d
 - [Llamar un archivo JS](#llamar-un-archivo-js)
 - [Etiqueta figure](#etiqueta-figure)
 - [Etiqueta video](#etiqueta-video)
-- [Recomendaciones](#recomendaciones)
-- [Herramientas adicionales](#herramientas-adicionales)
-	- [Modernizr](#modernizr)
 - [FAQs](#faqs)
 	- [¿Cómo está compuesto un diseño web?](#com%C3%B3-est%C3%A1-compuesto-un-dise%C3%B1o-web)
 
@@ -97,16 +94,6 @@ Se inserta con la etiqueta `<video>` dentro del `<body>`.  Debe tener una id par
 ```
 
 (Leer más sobre los codecs de video...)[https://developer.mozilla.org/es/docs/HTML/Formatos_admitidos_de_audio_y_video_en_html5]
-
-
-## Recomendaciones
-
-- Al momento de maquetar el sitio, tome decisiones pensando en la estructura de contenido pero no en el diseño.
-- Siempre debemos guardar el archivo en codificación utf-8.
-- Todos los tag semánticos (header, section, article, etc..) reemplaza los divs que se usaban para esto, pero los divs no están del todo muerto.
-- Si tienen botonera o menú, usan la etiqueta <nav></nav>.
-- No implemente componentes de diseño gráfico en HTML5.
-- Google recomienda tener un solo H1 por página.
 
 ## FAQs
 
