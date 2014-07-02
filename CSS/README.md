@@ -13,6 +13,7 @@ CSS significa hoja de estilos en cascada y sirve para darle estilo y formato a l
  - [Box shadown](#propiedad-boxshadown)
  - [Min y Max](#propiedades-min-o-max)
  - [@Font face](#propiedad-font-face)
+ - [Clear](#propiedad-clear)
 - [Pseudo elementos](#pseudo-elementos-en-css)
  - [first-child](#first-child)
  - [last-child](#last-child)
@@ -418,6 +419,17 @@ p:before
 p:first-child:before
 {
 	content:"Read this -";
+}
+```
+### Propiedad clear
+
+Sirve para desplazar un objeto de otros que esten posicionados de manera flotante.
+
+**Sintaxis**
+
+```css
+elemento {
+    clear: /*right, left, o both*/
 }
 ```
 
