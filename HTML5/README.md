@@ -99,10 +99,3 @@ Se inserta con la etiqueta `<video>` dentro del `<body>`.  Debe tener una id par
 
 ### ¿Comó está compuesto un diseño web?
 Todo empieza por la base de datos (MySQL, Postgres, MongoDB, etc...), luego tenemos el BACKEND con sus respectivos lenguajes de programación o frameworks (Php, Djando, Express.js, Node.js, Socket.io) y por último tenemos en FRONTEND (HTML5, CSS3, Javascript [jquery, y otros frameworks]) donde el único lenguaje de programación para el frontend es el Javascript y los demás son frameworks o lenguajes modelados de datos o estilos como HTML5 y CSS3.
-
-
-## Herramientas adicionales
-
-### Modernizr
-
-Librería en javascript que permite visualizar las etiquetas de HTML5 en cualquier navegador web. http://modernizr.com/
